@@ -35,7 +35,7 @@ const createTimeOutEvent = function(employeeInfo, dateTime){
         hour: parseInt(hour, 10),
         date,
     })
-    return employeeInfo
+    return this 
 }
 
 const hoursWorkedOnDate = function(employeeInfo, day){
